@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="assets/fb-share.png">
+  <meta name="keywords" content="educação, gestão escolar, pedagogia, projeto pedagógico, projeto político pedagógico, proposta pedagógica">
+  <meta name="description" property="og:description"
+  content="Veja como elaborar uma Proposta Pedagógica.">
+  <meta name="author" content="Univesp">
+
+  <title>Univesp | Elaborando uma Proposta Pedagógica</title>
+
+  <link rel="shortcut icon" href="http://apps.univesp.br/common/favicon.ico" type="image/x-icon"/>
+
+  <!-- Arquivos Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!-- Ícones por Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- Ícones por Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Tipografia institucional por Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Open+Sans:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Tipografia do REA -->
+  <link href="https://fonts.googleapis.com/css?family=Kalam:400,700|Shadows+Into+Light+Two" rel="stylesheet">
+
+  <!-- Compartilhamento por jsSocials -->
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+  <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-minima.css" />
+
+  <!-- Animate CSS customizado -->
+  <link rel="stylesheet" href="stylesheets/animate_custom.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="https://apps.univesp.br/common/rea-geral-2.0.css">
+  <link rel="stylesheet" href="stylesheets/nav_footer.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
+
+</head>
+
+<body class="d-flex flex-column">
+
+  <!-- Menu -->
+  <nav>
+    <div class="container d-flex justify-content-end">
+
+      <div class="logo" style="margin-left:16px">
+        <a class="pularNavegacao" href="#conteudoPrincipal">Pular para Conteúdo Principal</a>
+        <a href="https://univesp.br/" target="_blank">
+          <img src="https://apps.univesp.br/common/traco-negativa.svg" alt="Link para site institucional. Logotipo da universidade formado pela palavra Univesp em letras maiúsculas, sendo a letra V estilizada.">
+          <!-- outras opções de img src: colorida-negativa.svg, traco-positiva.svg, traco-negativa.svg -->
+        </a>
+      </div>
+
+      <ul class="nav justify-content-end" style="margin-right:16px">
+
+        <!-- Itens de acessibilidade, ainda não funcionais -->
+        <!--
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+          <i class="material-icons" aria-label="Menu de acessibilidade">accessibility_new</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+          ...
+          </div>
+        </li> -->
+
+        <!-- Itens de compartilhamento -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+            <i class="material-icons" aria-label="Opções de Compartilhamento">share</i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <div class="sharing" id="share-buttons"></div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- Conteúdo -->
+  <main id="conteudoPrincipal">
+
+    <div class="container folhas">
+
+      <!-- Introdução -->
+      <div class="container folha folha-intro">
+        <div class="row justify-content-center intro">
+          <div class="col-lg-6 col-10">
+            <h1>
+              Elaborando uma<br /> Proposta Pedagógica
+            </h1>
+            <p>
+              A elaboração da Proposta Pedagógica de uma instituição de ensino deve considerar <b>uma série de princípios e referências.</b> Neste mapa mental, esses fundamentos estão organizados de maneira esquematizada.
+            </p>
+            <p>
+              Para navegar pelo mapa e acompanhar o raciocínio passo-a-passo, clique nos itens em vermelho.
+            </p>
+            <button id="comecar" class="button botao bg-marker collapsed usado" style="font-size: 1.5rem;">Vamos começar?</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Infográfico -->
+      <div class="container folha">
+
+        <!-- Elementos gráficos -->
+        <img src="assets/clamp.svg" class="clamp" />
+        <img src="assets/caneta.svg" class="caneta" />
+        <div class="desk-l"><img src="assets/desk-l.svg"/></div>
+        <div class="desk-r"><img src="assets/desk-r.svg"/></div>
+
+        <!-- Infográfico -->
+        <div class="container">
+          <div class="row justify-content-md-center infografico" id="info">
+
+            <!-- Coluna central/Inicio -->
+            <div class="col-lg col-central order-1 order-lg-2">
+
+              <!-- PROPOSTA PEDAGÓGICA -->
+              <div class="pai">
+
+                <!-- Setas -->
+                <img src="assets/seta1.svg" class="seta seta1" />
+                <img src="assets/seta2.svg" class="seta seta2" />
+                <img src="assets/seta3.svg" class="seta seta3" />
+
+                <h2>
+                  <button  class="bg-marker " data-toggle="collapse" data-target="#item-0" id="botao-0">Proposta Pedagógica</button>
+                </h2>
+                <div class="collapse show" id="item-0">
+                  <p>É o documento que deve contemplar as práticas desenvolvidas na instituição, <b>levando em consideração as normas e referências norteadoras que se encontram nos documentos oficiais</b>. Inclui aspectos que dizem respeito à organização, ao funcionamento e às articulações que viabilizam a prática pedagógica numa instituição educativa.</p>
+                </div>
+              </div>
+
+              <!-- DOCUMENTOS OFICIAIS -->
+              <div class="item" id="item-3">
+                <h3><button  class="bg-marker  collapsed" data-toggle="collapse" data-target="#item-3-1">Documentos Oficiais</button></h3>
+                <div class="item-exp  collapse" id="item-3-1">
+                  <p> A proposta pedagógica deve estar de acordo com o que preconizam as leis e diretrizes oficiais para a Educação. No caso da Educação Infantil, devem ser consideradas especialmente a LDB, a BNCC e as DCNEI.
+                  </p>
+                  <ul>
+                    <li>
+                      <a href="https://drive.google.com/file/d/16nXIGxMxvGYzJuHyMZqBcFp2kUaP7nQI/view" target="_blank"> LDB - Lei de Diretrizes e Bases da Educação<i class="fas fa-external-link-alt"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1g5ke3lJcHMFNmAwmt-ThiuZW7iDMHf2Y/view" target="_blank"> BNCC - Base Nacional Comum Curricular<i class="fas fa-external-link-alt"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://drive.google.com/file/d/1oHmhFWjgBE0Dx7lKNCkBwTUOVtgeIkeG/view" target="_blank"> DCNEI - Diretrizes Curriculares Nacionais para a Ed. Infantil<i class="fas fa-external-link-alt"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Coluna esquerda/Meio -->
+            <div class="col-lg order-2 order-lg-1">
+
+              <!-- ELABORAÇÃO -->
+              <div class="item" id="item-1">
+                <h3 class="centralizar"><button class="bg-marker  collapsed" data-toggle="collapse" data-target="#item-1-1">Elaboração</button></h3>
+                <div class="item-exp collapse" id="item-1-1">
+                  <p>O processo de elaboração da Proposta Pedagógica deve levar em conta alguns aspectos essenciais para a efetividade e a legitimidade da Proposta na instituição educativa.</p>
+                  <ul>
+                    <li>
+                      Objetivo
+                    </li>
+                    <li>
+                      Destinatário
+                    </li>
+                    <li>
+                      Quem elabora
+                    </li>
+                    <li>
+                      Tipo de documento
+                    </li>
+                    <li>
+                      <button class="botao collapsed" data-toggle="collapse" data-target="#item-1-1-1">Princípios</button>
+                    </li>
+                  </ul>
+
+                  <!-- PRINCÍPIOS -->
+                  <div class="subitem collapse" id="item-1-1-1">
+                    <img src="assets/seta4.svg" class="seta4" />
+                    <p> Fundamentos que devem nortear o texto da Proposta Pedagógica.</p>
+                    <ul>
+                      <li>
+                        Unidade
+                      </li>
+                      <li>
+                        Sistematicidade
+                      </li>
+                      <li>
+                        Consciência
+                      </li>
+                      <li>
+                        Necessidade
+                      </li>
+                      <li>
+                        Participação/ Envolvimento
+                      </li>
+                      <li>
+                        Compromisso
+                      </li>
+                      <li>
+                        Contextualização
+                      </li>
+                      <li>
+                        Coerência
+                      </li>
+                      <li>
+                        Dinamismo/ Provisoriedade
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Coluna direta/fim -->
+            <div class="col-lg order-3">
+
+              <!-- ELEMENTOS CONSTITUINTES -->
+              <div class="item" id="item-2">
+                <h3><button class="bg-marker  collapsed" data-toggle="collapse" data-target="#item-2-1">Elementos Constituintes</button></h3>
+                <div class="item-exp  collapse" id="item-2-1">
+                  <p>
+                    Estrutura do texto final da Proposta Pedagógica.
+                  </p>
+                  <ul>
+                    <li>
+                      História da instituição
+                    </li>
+                    <li>
+                      História da Proposta Pedagógica
+                    </li>
+                    <li>
+                      Contexto sociocultural da instituição
+                    </li>
+                    <li>
+                      Concepções norteadoras
+                    </li>
+                    <li>
+                      Finalidades e objetivos
+                    </li>
+                    <li>
+                      <button class="botao collapsed" data-toggle="collapse" data-target="#item-2-1-1">Organização do trabalho</button>
+                    </li>
+                  </ul>
+
+                  <!-- ORGANIZAÇÃO DO TRABALHO -->
+                  <div class="subitem collapse" id="item-2-1-1">
+                    <img src="assets/seta4.svg" class="seta4" />
+                    <p>Diretrizes e concepções para as práticas pedagógicas cotidianas, formuladas considerando-se a realidade da instituição.</p>
+                    <ul>
+                      <li>
+                        Currículo
+                      </li>
+                      <li>
+                        Tempos
+                      </li>
+                      <li>
+                        Espaços
+                      </li>
+                      <li>
+                        Materiais
+                      </li>
+                      <li>
+                        Crianças
+                      </li>
+                      <li>
+                        Metodologia de Trabalho
+                      </li>
+                      <li>
+                        Instrumentos do professor
+                      </li>
+                      <li>
+                        Professores e suas condições de trabalho
+                      </li>
+                      <li>
+                        Relações com as famílias
+                      </li>
+                      <li>
+                        Articulação da Educação Infantil com o Ensino Fundamental
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feedbacks -->
+    <div class="feedback-display">
+      <div class="container feedback-container">
+        <div class="feedback rot-1">
+          <p>
+            Você deve ter reparado que Proposta Pedagógica é, muitas vezes, sinônimo de Projeto Pedagógico ou Projeto Político-pedagógico. Optamos pelo termo <b>Proposta Pedagógica</b> porque é a terminologia usada na maioria dos documentos oficiais.
+          </p>
+        </div>
+        <div class="feedback rot-2">
+          <p>
+            Agora que você já conhece os elementos essenciais da Proposta, pode <a href="assets/elaborando-uma-proposta-pedagogica.pdf" target="_blank">salvar ou imprimir</a> estas informações para consultas futuras. =)
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="container d-flex justify-content-between align-items-center">
+
+      <div class="cred-rea">
+
+        <!-- Comente em caso de adaptação do REA -->
+        <p>
+          <span>Recurso Educacional Aberto (REA) desenvolvido pela <a href="https://univesp.br/" target="blank">Univesp</a>, disponível sob licença <a href="license.txt" target="_blank">MIT</a>.
+            Você pode utilizá-lo, compartilhá-lo e modificá-lo.</span>
+          <span><button class="btn btn-link" data-toggle="modal" data-target="#creditos">Créditos</button></span>
+          <!-- GitHub -->
+          <!-- <span><a href="#" target="_blank" aria-label="GitHub">GitHub <i class="fab fa-github"></i></a></span>. -->
+        <p>
+        <!-- Descomente em caso de adaptação do REA -->
+        <!-- <p>
+        <span>Recurso Educacional Aberto (REA) adaptado por SEU NOME.</span>
+        <span><a href="#">Versão original da Univesp</a></span>
+        </p> -->
+      </div>
+
+      <div class="aval-rea d-flex">
+        <!-- Atualizar "Nome+do+Recurso" -->
+        <a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSeG2AS2iLsQRq9WoB_Wlt8Bf6peFfUyXUoWXYwer8dJT1KIKQ/viewform?usp=pp_url&entry.542052009=Elaborando+uma+Proposta+Pedagógica" target="_blank">Avaliar este recurso</a>
+        <!-- Atualizar "Nome+do+Recurso" -->
+        <a class="btn btn-secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSfY__b3qstbbHakdfXQUJzcT3wmoUH2w0GikvB0mZLBTcpgzw/viewform?usp=pp_url&entry.1523910789=Elaborando+uma+Proposta+Pedagógica" target="_blank">Reportar erro</a>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Fim do rodapé -->
+
+
+  <!-- Créditos -->
+  <div class="modal fade" id="creditos" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <h6>Governo do Estado de São Paulo</h6>
+          <p>Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação</p>
+
+          <h6>UNIVERSIDADE VIRTUAL DO ESTADO DE SÃO PAULO – UNIVESP</h6>
+          <p><span class="funcao">Presidente</span>Fernanda Gouveia</p>
+          <p><span class="funcao">Diretora Acadêmica</span>Cleide Nébias</p>
+          <p><span class="funcao">Diretor Administrativo</span>Carlos Augusto Freixo Corte Real</p>
+
+          <h6>Equipe</h6>
+          <p><span class="funcao">Docente responsável</span>Sônia Castellar</p>
+          <p><span class="funcao">Coordenação</span>Juliana Hampel</p>
+          <p><span class="funcao">Layout e ilustração</span>Natasha Higa</p>
+          <p><span class="funcao">Programação</span>Natasha Higa, William Kimura</p>
+          <p><span class="funcao">Planejamento e Design Instrucional</span>Aparecida Azevedo</p>
+          <p><span class="funcao">Colaboração</span>Ana Clara Viola Goyeneche Gatti</p>
+
+        </div>
+        <div class="modal-footer">
+          <p>Outubro/2018</p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arquivos Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://apps.univesp.br/common/jquery-ui-touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <!-- jsSocials -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.min.js"></script>
+  <script>
+  var share = $("#share-buttons");
+  var page_title = $(document).attr('title');
+  var page_url = window.location.href;
+  share.jsSocials({
+    shares: [
+      {
+        share: "facebook",
+        label: "Facebook",
+        logo: "fab fa-facebook-f",
+      },
+      {
+        share: "twitter",
+        label: "Twitter",
+        logo: "fab fa-twitter",
+      },
+      {
+        share: "whatsapp",
+        label: "Whatsapp",
+        logo: "fab fa-whatsapp",
+      },
+    ],
+    url: page_url,
+    text: 'Confira o REA ' + page_title + '.',
+    showLabel: true,
+    showCount: false,
+    shareIn: "popup",
+  });
+  </script>
+
+
+  <!-- Custom JS -->
+  <script type="text/javascript" src="javascripts/events.js"></script>
+
+  <!-- MathJax. Descomente se for utilizar. Caso contrário, remova. -->
+  <!-- <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+
+  <!-- Analytics. Remova em caso de reutilização do REA -->
+  <script src="https://apps.univesp.br/common/analytics.js"></script>
+
+</body>
+
+</html>
